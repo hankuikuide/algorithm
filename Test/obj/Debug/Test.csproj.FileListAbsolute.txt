@@ -1,0 +1,7 @@
+C:\Example\Algorithms\Test\bin\Debug\Test.dll
+C:\Example\Algorithms\Test\bin\Debug\Test.pdb
+C:\Example\Algorithms\Test\bin\Debug\Algorithms.exe
+C:\Example\Algorithms\Test\bin\Debug\Algorithms.pdb
+C:\Example\Algorithms\Test\obj\Debug\ResolveAssemblyReference.cache
+C:\Example\Algorithms\Test\obj\Debug\Test.dll
+C:\Example\Algorithms\Test\obj\Debug\Test.pdb

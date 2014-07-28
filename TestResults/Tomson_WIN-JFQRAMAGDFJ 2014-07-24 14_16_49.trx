@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="eb4cd06a-637f-4f3c-bf05-4b4f18189a34" name="Tomson@WIN-JFQRAMAGDFJ 2014-07-24 14:16:49" runUser="WIN-JFQRAMAGDFJ\Tomson" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="本地" id="2b365126-f457-4e84-a70a-6a9d4c896ef3">
+    <Description>这些设置为本地测试运行的默认测试设置。</Description>
+    <Deployment userDeploymentRoot="C:\Example\Algorithms\TestResults" useDefaultDeploymentRoot="false" enabled="false" runDeploymentRoot="Tomson_WIN-JFQRAMAGDFJ 2014-07-24 14_16_49">
+      <DeploymentItem filename="C:\Example\Algorithms\Algorithms\bin\Debug\Algorithms.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-07-24T14:16:49.3792596+08:00" queuing="2014-07-24T14:16:49.3892616+08:00" start="2014-07-24T14:16:49.4862810+08:00" finish="2014-07-24T14:16:49.8463530+08:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="5" executed="5" passed="5" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="MergeArrayTest" storage="c:\example\algorithms\test\bin\debug\test.dll" id="98939fcc-c702-767d-917e-14392c313e84">
+      <Execution id="e6815672-3d8b-40ec-85e6-b1bff6cae287" />
+      <TestMethod codeBase="C:/Example/Algorithms/Test/bin/Debug/Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.SortTest, Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MergeArrayTest" />
+    </UnitTest>
+    <UnitTest name="Push_Push_Pop_Push_Pop_Test" storage="c:\example\algorithms\test\bin\debug\test.dll" id="f30f64dc-f60a-7a1b-4ed2-a7081c673cf4">
+      <Execution id="100f61ce-e9aa-43c9-ba85-e9cb326eb06b" />
+      <TestMethod codeBase="C:/Example/Algorithms/Test/bin/Debug/Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.StactAndQueueTest, Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Push_Push_Pop_Push_Pop_Test" />
+    </UnitTest>
+    <UnitTest name="TestMethod1" storage="c:\example\algorithms\test\bin\debug\test.dll" id="02bd63ea-c986-6226-d5cc-5ef0d874b5d1">
+      <Execution id="e90ea3c4-b114-49ba-be5f-2664b0471a6c" />
+      <TestMethod codeBase="C:/Example/Algorithms/Test/bin/Debug/Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.UnitTest1, Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+    <UnitTest name="Push_Push_Pop_Pop_Test" storage="c:\example\algorithms\test\bin\debug\test.dll" id="5075d4ea-2572-a80b-d5aa-29caa5499e5e">
+      <Execution id="49065598-a1ab-45a5-a293-0fe8ce90ca34" />
+      <TestMethod codeBase="C:/Example/Algorithms/Test/bin/Debug/Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.StactAndQueueTest, Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Push_Push_Pop_Pop_Test" />
+    </UnitTest>
+    <UnitTest name="BinarySearchTest" storage="c:\example\algorithms\test\bin\debug\test.dll" id="ed2a5779-15d0-873d-11b3-7019131745df">
+      <Execution id="375c7c05-fbb3-45ee-93eb-26249bafb4af" />
+      <TestMethod codeBase="C:/Example/Algorithms/Test/bin/Debug/Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.FindTest, Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BinarySearchTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="02bd63ea-c986-6226-d5cc-5ef0d874b5d1" executionId="e90ea3c4-b114-49ba-be5f-2664b0471a6c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5075d4ea-2572-a80b-d5aa-29caa5499e5e" executionId="49065598-a1ab-45a5-a293-0fe8ce90ca34" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="98939fcc-c702-767d-917e-14392c313e84" executionId="e6815672-3d8b-40ec-85e6-b1bff6cae287" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ed2a5779-15d0-873d-11b3-7019131745df" executionId="375c7c05-fbb3-45ee-93eb-26249bafb4af" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f30f64dc-f60a-7a1b-4ed2-a7081c673cf4" executionId="100f61ce-e9aa-43c9-ba85-e9cb326eb06b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="e90ea3c4-b114-49ba-be5f-2664b0471a6c" testId="02bd63ea-c986-6226-d5cc-5ef0d874b5d1" testName="TestMethod1" computerName="WIN-JFQRAMAGDFJ" duration="00:00:00.0155588" startTime="2014-07-24T14:16:49.4932824+08:00" endTime="2014-07-24T14:16:49.7673372+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e90ea3c4-b114-49ba-be5f-2664b0471a6c">
+    </UnitTestResult>
+    <UnitTestResult executionId="49065598-a1ab-45a5-a293-0fe8ce90ca34" testId="5075d4ea-2572-a80b-d5aa-29caa5499e5e" testName="Push_Push_Pop_Pop_Test" computerName="WIN-JFQRAMAGDFJ" duration="00:00:00.0044849" startTime="2014-07-24T14:16:49.7693376+08:00" endTime="2014-07-24T14:16:49.7813400+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="49065598-a1ab-45a5-a293-0fe8ce90ca34">
+    </UnitTestResult>
+    <UnitTestResult executionId="e6815672-3d8b-40ec-85e6-b1bff6cae287" testId="98939fcc-c702-767d-917e-14392c313e84" testName="MergeArrayTest" computerName="WIN-JFQRAMAGDFJ" duration="00:00:00.0010683" startTime="2014-07-24T14:16:49.7843406+08:00" endTime="2014-07-24T14:16:49.7933424+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e6815672-3d8b-40ec-85e6-b1bff6cae287">
+    </UnitTestResult>
+    <UnitTestResult executionId="375c7c05-fbb3-45ee-93eb-26249bafb4af" testId="ed2a5779-15d0-873d-11b3-7019131745df" testName="BinarySearchTest" computerName="WIN-JFQRAMAGDFJ" duration="00:00:00.0008536" startTime="2014-07-24T14:16:49.7973432+08:00" endTime="2014-07-24T14:16:49.8073452+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="375c7c05-fbb3-45ee-93eb-26249bafb4af">
+    </UnitTestResult>
+    <UnitTestResult executionId="100f61ce-e9aa-43c9-ba85-e9cb326eb06b" testId="f30f64dc-f60a-7a1b-4ed2-a7081c673cf4" testName="Push_Push_Pop_Push_Pop_Test" computerName="WIN-JFQRAMAGDFJ" duration="00:00:00.0003246" startTime="2014-07-24T14:16:49.8093456+08:00" endTime="2014-07-24T14:16:49.8203478+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="100f61ce-e9aa-43c9-ba85-e9cb326eb06b">
+    </UnitTestResult>
+  </Results>
+</TestRun>

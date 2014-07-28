@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="e24ac0a8-72b8-4cb3-94d9-1d07e2c1d81d" name="Tomson@WIN-JFQRAMAGDFJ 2014-07-24 12:38:26" runUser="WIN-JFQRAMAGDFJ\Tomson" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="本地" id="2b365126-f457-4e84-a70a-6a9d4c896ef3">
+    <Description>这些设置为本地测试运行的默认测试设置。</Description>
+    <Deployment enabled="false" runDeploymentRoot="Tomson_WIN-JFQRAMAGDFJ 2014-07-24 12_38_26">
+      <DeploymentItem filename="C:\Example\Algorithms\Algorithms\bin\Debug\Algorithms.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-07-24T12:38:26.5319839+08:00" queuing="2014-07-24T12:38:28.0722919+08:00" start="2014-07-24T12:38:28.1763127+08:00" finish="2014-07-24T12:38:44.8046377+08:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="WIN-JFQRAMAGDFJ" outcome="Error" timestamp="2014-07-24T12:38:44.7946357+08:00">
+        <Text>测试宿主进程意外退出。</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Push_Push_Pop_Pop_Test" storage="c:\example\algorithms\test\bin\debug\test.dll" id="5075d4ea-2572-a80b-d5aa-29caa5499e5e">
+      <Execution id="97982700-e9f3-4faa-aeb5-81bd3cfb7dca" />
+      <TestMethod codeBase="C:/Example/Algorithms/Test/bin/Debug/Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test.StactAndQueueTest, Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Push_Push_Pop_Pop_Test" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="5075d4ea-2572-a80b-d5aa-29caa5499e5e" executionId="97982700-e9f3-4faa-aeb5-81bd3cfb7dca" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="97982700-e9f3-4faa-aeb5-81bd3cfb7dca" testId="5075d4ea-2572-a80b-d5aa-29caa5499e5e" testName="Push_Push_Pop_Pop_Test" computerName="WIN-JFQRAMAGDFJ" duration="00:00:16.5513096" startTime="2014-07-24T12:38:28.2533281+08:00" endTime="2014-07-24T12:38:44.8046377+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="97982700-e9f3-4faa-aeb5-81bd3cfb7dca">
+    </UnitTestResult>
+  </Results>
+</TestRun>
