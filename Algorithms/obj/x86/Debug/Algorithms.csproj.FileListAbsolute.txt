@@ -1,5 +1,0 @@
-C:\Example\Algorithms\Algorithms\bin\Debug\Algorithms.exe
-C:\Example\Algorithms\Algorithms\bin\Debug\Algorithms.pdb
-C:\Example\Algorithms\Algorithms\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\Example\Algorithms\Algorithms\obj\x86\Debug\Algorithms.exe
-C:\Example\Algorithms\Algorithms\obj\x86\Debug\Algorithms.pdb
